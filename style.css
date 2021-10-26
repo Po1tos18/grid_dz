@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+}
+.comtainer{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    align-items: start;
+    grid-template-rows:minmax();
+    
+}
+/*  */
+.size{
+   height: 15px;
+    background: transparent;
+    
+    
+}
+.gre1{
+    display: flex;
+    color: grey;
+    background-color: silver;
+    width: 350px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.whi1{
+    background-color:white ;
+    padding: 15px;
+}
+.whi1 h3{
+    background-color:white;
+    font-size: 25px;
+    margin-bottom:10px ;
+}
+.whi1 p{
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+}
+.gre2{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    color: grey;
+    background-color: silver;
+    justify-content: center;
+    align-items: center;
+}
+.whi2{
+    background-color: white;
+    padding: 15px;
+}
+.whi2 p{
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+}
+
+.doble{
+    margin: 15px;
+    background-color: aquamarine;
+}
+.doble2{
+    margin: 15px;
+    background-color: aquamarine;
+    height: 212px;
+}
+.whi3{
+    background-color:white ;
+    padding: 15px;
+}
+.whi3 h3{
+    background-color:white;
+    font-size: 25px;
+    margin-bottom:10px ;
+}
+.whi3 p{
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+}
+.doble3{
+    margin: 15px;
+    background-color: aquamarine;
+    height: 251px;
+}
+.gre4{
+    width: 350px;
+    height: 220px;
+    display: flex;
+    color: grey;
+    background-color: silver;
+    justify-content: center;
+    align-items: center;
+}
+.whi4{
+    background-color:white ;
+    padding: 15px;
+}
+.whi4 p{
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+}
+.doble4{
+    margin: 15px;
+    border-color: aquamarine;
+    height: 286px;
+}
+.gre5{
+    width: 350px;
+    height: 230px;
+    display: flex;
+    color: grey;
+    background-color: silver;
+    justify-content: center;
+    align-items: center;
+}
+.whi5{
+    background-color:white ;
+    padding: 15px;
+}
+.whi5 h3{
+    background-color:white;
+    font-size: 25px;
+    margin-bottom:10px ;
+}
+.whi5 p{
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+}
+.doble5{
+    margin: 15px;
+    border-color: aquamarine;
+    /* height: 358px; */
+    align-self: start;
+}
+.gre6{
+    display: flex;
+    color: grey;
+    background-color: silver;
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.whi6{
+    background-color:white ;
+    padding: 15px;
+}
+.whi6 h3{
+    background-color:white;
+    font-size: 25px;
+    margin-bottom:10px ;
+}
+.whi6 p{
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+}
+.doble6{
+    align-self: start;
+}
+.gre7{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    color: grey;
+    background-color: silver;
+    justify-content: center;
+    align-items: center;
+}
+.doble7{
+    margin: 15px;
+    border-color: aquamarine;
+    height: 261px;
+
+}
+.whi8{
+    background-color:white ;
+    padding: 15px;
+}
+
+.whi8 p{
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+}
+.doble9{
+    margin: 15px;
+    border-color: aquamarine;
+    height: 272px;
+}
+/* Второе дз */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+.ollo{
+    margin: 10px;
+    
+}
+.grey{
+    color: grey;
+    font-size: 12px;
+    text-align: end;
+}
+.greyhe{
+    color: grey;
+    font-size: 12px;
+    
+}
+.imgu{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../grid_dz/she.jpeg) no-repeat;
+    background-size: contain ;
+}
+.akku{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.imgo{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../grid_dz/he.jpeg) no-repeat;
+    background-size: contain ;
+}
+.akko{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+body{
+    margin-top: 30px;
+}
+.red{display: flex;
+    background: pink;
+    border-radius: 10px 10px 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    display: flex;
+    background: skyblue;
+    border-radius: 10px 10px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* THIRD */
+.third_exe{
+
+}
+.header_three{
+    background-color:blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    padding-left: 30px;
+}
+.podhead h2{
+    color: white;
+    font-size: 35px;
+    background-color: blue;
+}
+.ggr{
+    background-color: silver;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 20px;
+}
+.content{
+    height: 600px;
+    border: 1px black solid;
+    background-color: silver;
+    overflow-y: auto;
+}
+.big_content{
+    padding: 20px;
+    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 350px);
+    grid-gap: 30px;
+    background-color: dodgerblue;
+}
+.ggr div H3{
+    background:silver ;
+}
+.tet{
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(5, 140px);
+    grid-gap: 15px;
+    background-color: silver;
+    
+}
+.tetatet{
+    display: grid;
+    grid-template-rows: 90px 50px;
+    width: 310px;
+    border-radius: 10px;
+}
+.podtet{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.emodji{
+    display: flex;
+    align-items:center ;
+    font-size: 20px;
+    
+}
+.span{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.podtet_two{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.span_two{
+    margin-right: 10px;
+}
+.fototet{
+    display: flex;
+    align-items:center ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url(../grid_dz/he.jpeg) no-repeat;
+    background-size:contain ;
+}
+.fototet{
+    margin-right: 10px;
+}
